@@ -1,0 +1,15 @@
+.first-title{
+    color:red;
+}
+
+#google-link {
+    color:purple;
+}
+h1 {
+    color: blue
+
+}
+/* This is the universal operator select the entire html page */
+* {
+ font-size: 15;
+}
