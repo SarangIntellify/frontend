@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="Images/envelope_delivered_letter_icon_153878.ico">
+        <!-- Find the meaning of below meta tag -->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>Forms</title>
+    </head>
+
+    <body>
+        <h1>Forms</h1>
+        <form autocomplete="off">
+            <label for=" user">Username</label>
+            <input size="25" placeholder="Enter your name of min length 2" maxlength="3" minlength="2" name="user"
+                type="text" id="user" required />
+            <label for="email">Email</label>
+            <input name="email" type="email" id="email" required />
+            <label for="m1">Samsung</label>
+            <input type="radio" id="m1" name="mobileproducts" value="samsung">
+            <label for="m2">Redmi</label>
+            <input type="radio" id="m2" name="mobileproducts" value="redmi">
+            <select name="products" id="products">
+                <option value="macbook">MacBook</option>
+                <option value="apple">Apple</option>
+            </select>
+            <br>
+            <br>
+            <label for="comments">Please add in textarea</label>
+            <textarea required name="comments" id="comments" cols="30" rows="10"></textarea>
+            <button>Submit</button>
+        </form>
+        <!-- in option tag value attribute value get submitted -->
+        <!-- in input tag name attribute goes as key to backend and its value is what user add -->
+
+    </body>
+
+</html>
