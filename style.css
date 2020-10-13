@@ -1,0 +1,13 @@
+ul {
+    list-style: none;
+    border: 2px solid black;
+    margin: 0px;
+    padding: 0px;
+    background-color: red;
+}
+
+/* ul li {
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px;
+} */

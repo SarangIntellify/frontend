@@ -1,5 +1,4 @@
      body {
-         color: black;
          border: 3px solid black;
          font-family: Verdana, Geneva, Tahoma, sans-serif;
          font-size: 20px;
@@ -73,4 +72,23 @@
 
      .underline {
          text-decoration: underline;
+     }
+
+     .divmain {
+         color: green;
+     }
+
+     a:hover {
+         background-color: black;
+     }
+
+     .special_anchor {
+         text-decoration: none;
+     }
+
+     .special_h3 {
+         width: 80px;
+         border: 2px solid black;
+         padding-right: 100px;
+         margin-left: 100px;
      }
